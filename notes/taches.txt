@@ -1,0 +1,7 @@
+_mettre tout les x100 dans un meme fichier js et faire un import export
+_Utiliser une base de données
+_faire du prisma
+_faire une fusion de tout les x100 dans un seul tableau
+_Faire une navbar en css
+_mettre du css, un système qui utilise les flexbox
+_du js en dom

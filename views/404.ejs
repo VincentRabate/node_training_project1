@@ -1,0 +1,9 @@
+<%- include ("./partiels/header.ejs") %>
+
+<body>
+  <% x404.forEach(x=> { %>
+  <h1><%= x.status %></h1>
+  <h2><%= x.titre %></h2>
+  <% }); %>
+</body>
+<%- include ("./partiels/footer.ejs") %>

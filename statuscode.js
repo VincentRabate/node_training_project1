@@ -1,16 +1,25 @@
-const statuscode = [
-  { 200: "c'est bon", contenu: "succès de la requète" },
+const x100 = [
   {
-    300: "redirection",
-    contenu:
-      "301 et 302 : redirection, respectivement permanente et temporaire ",
+    status: "100",
+    titre: "Information",
   },
-  {
-    400: "probleme utilisateur",
-    contenu: "401 : utilisateur non authentifié, 403 : accès refusé ;",
-  },
-  { 404: "ressource non trouvée", contenu: "la page n'existe peut etrepas" },
-  { 500: "erreur serveur", contenu: "il y a eu une erreur du coté du serveur" },
 ];
+const x200 = [{ status: "200", titre: "succès de la requète" }];
+const x300 = [
+  {
+    status: "300",
+    titre: "redirection",
+    suite: "301 = permanante, 302 = temporaire",
+  },
+];
+const x400 = [{ status: "400", titre: "problème utilisateur" }];
+const x500 = [
+  {
+    status: "500",
+    titre: "erreur serveur",
+    suite: "504 = le serveur n'a pas répondu",
+  },
+];
+const x404 = [{ status: "404", titre: "ressource non trouvée" }];
 
-export { statuscode };
+export { x100, x200, x300, x400, x500, x404 };

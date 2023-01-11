@@ -1,10 +1,12 @@
 <%- include("./partiels/header.ejs") %>
 
 <body>
-  <% x500.forEach(x => { %>
+  <% x100.forEach(x => {%>
   <h1><%= x.status %></h1>
   <h2><%= x.titre %></h2>
-  <p><%= x.suite %></p>
+  <% }); %> <% c100.forEach( x=> {%>
+  <h3><%= x.code %> - <%= x.message %></h3>
+  <p><%= x.signification %></p>
   <% }); %>
 </body>
 
